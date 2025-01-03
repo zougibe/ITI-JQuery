@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="mediaPlayer">
+        <audio src="./تحميل اغنية - صعب - تامر عاشور - MP3.mp3">
+        </audio>
+        <ul class="song-list">
+            <li data-src="./تحميل اغنية - صعب - تامر عاشور - MP3.mp3">Sa'ab - Tamer Ashour <button class="play-song"><i class="fa-solid fa-play"></i></button></li>
+            <li data-src="./11.Ya_3ieny.mp3">Ya_3ieny - Tamer Ashour <button class="play-song"><i class="fa-solid fa-play"></i></button></li>
+            <li data-src=".\04.El7ozn_Maly_El3en.mp3">El7ozn_Maly_El3en - Tamer Ashour <button class="play-song"><i class="fa-solid fa-play"></i></button></li>
+        </ul>
+        <div class="controls">
+            <button class="Play"><i class="fa-solid fa-play"></i></button>
+            <button class="Stop"><i class="fa-solid fa-stop"></i></button>
+            <input type="range" class="Seek" min="0" max="100" step="0.01" value="0" />
+            <button id="mute-unmute" class="control-btn"><i class="fa-solid fa-volume-high"></i></button>
+            <input type="range" class="volume" min="0" max="1" step="0.01" value="1" />
+            
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script3.js"></script>
+</body>
+
+</html>
