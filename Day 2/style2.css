@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    background-color: black;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.icon span{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 1000px;
+}
+
+header nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li a{
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+#home{
+    background: url('https://plus.unsplash.com/premium_photo-1661775756810-82dbd209fc95?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2Vic2l0ZSUyMGNvdmVyfGVufDB8fDB8fHww') no-repeat center center/cover;
+    color: white;
+    border-radius: 5px;
+    /* position: relative; */
+    top: 60px;
+}
+
+.toTop{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #333;
+    line-height: 80px;
+    position:fixed;
+    bottom: 100px;
+    right: 50px;
+    font-size: 24px;
+    opacity: 0;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#about{
+    background: #d3d3d3;
+    color: black;
+    border-radius: 5px;
+}
+
+#services{
+    background: #373434;
+    color: white;
+    border-radius: 5px;
+}
+
+#contact{
+    background: #d3d3d3;
+    color: black;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
